@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #59AC77;
+  color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Styling */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #59AC77;
+}
+
+/* Heading Styles */
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Paragraph Style */
+.contact-section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Form Container */
+form {
+  background-color: #007bff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #2c3e50;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button Style */
+button[type="submit"] {
+  background-color: ghostwhite;
+  border: none;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  color: red;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Home Link */
+a {
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  color: greenyellow;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 40px 10px;
+  }
+
+  form {
+    padding: 20px;
+  }
+}
